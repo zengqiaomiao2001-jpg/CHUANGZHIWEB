@@ -10,7 +10,7 @@ const Hero = () => {
     <section className="relative h-screen w-full overflow-hidden flex items-center">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://picsum.photos/seed/tech-innovation/1920/1080" 
+          src="/assets/home-hero.jpg" 
           alt="Innovation" 
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"

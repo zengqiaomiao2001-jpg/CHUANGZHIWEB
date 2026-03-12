@@ -45,7 +45,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
             <img 
-              src="/logo.png" 
+              src="/assets/logo.png" 
               alt="创智科技" 
               className={cn(
                 "h-10 md:h-12 w-auto transition-all",
@@ -148,7 +148,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
             <div className="flex items-center gap-2">
-              <img src="/logo.png" alt="创智科技" className="h-10 md:h-12 w-auto brightness-0 invert" />
+              <img src="/assets/logo.png" alt="创智科技" className="h-10 md:h-12 w-auto brightness-0 invert" />
             </div>
             <p className="text-white/60 leading-relaxed">
               {t.footer.desc}

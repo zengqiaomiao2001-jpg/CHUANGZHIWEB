@@ -19,7 +19,7 @@ export const AboutPage = () => {
       {/* Banner */}
       <section className="relative h-[40vh] flex items-center justify-center overflow-hidden">
         <img 
-          src="https://picsum.photos/seed/factory/1920/600" 
+          src="/assets/about-banner.jpg" 
           alt="About Us" 
           className="absolute inset-0 w-full h-full object-cover"
           referrerPolicy="no-referrer"
