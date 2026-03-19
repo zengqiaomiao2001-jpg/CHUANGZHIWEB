@@ -32,5 +32,15 @@ body {
 }
 
 .section-subtitle {
-  @apply text-lg text-slate-500 mb-12 max-w-2xl;
+  @apply text-lg text-slate-500 mb-12 max-w-2xl mx-auto;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }

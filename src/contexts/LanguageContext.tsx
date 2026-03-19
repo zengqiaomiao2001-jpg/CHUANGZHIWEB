@@ -18,6 +18,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   useEffect(() => {
     localStorage.setItem('app_lang', language);
     document.documentElement.lang = language;
+    document.title = translations[language].companyName;
   }, [language]);
 
   const t = translations[language];
